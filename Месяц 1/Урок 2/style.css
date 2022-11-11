@@ -1,0 +1,110 @@
+
+/*
+.h1-red {
+    color: red;
+}
+
+.h1-green {
+    color: green;
+} 
+
+.box-wrapper div {
+    width: 200px;
+    height: 200px;
+}
+
+.box1 {
+    background: red;
+}
+
+.box2 {
+    background: green;
+}
+
+.box3 {
+    background: blue;
+}
+*/
+
+.h1-z {
+    text-align: center;
+    text-shadow: 4px 2px 1px #A9A9A9;
+
+}
+
+.h3-z {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p-1 {
+    font-family: sans-serif;
+}
+
+/*.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    font-size: 200px;
+}
+
+.box1{
+    background: red;
+    margin: auto;
+}
+.box2{
+    background: blue;
+}
+.box3{
+    background: purple;
+    margin: auto;
+    margin-top: -200px;
+}
+.box4{
+    background: orange;
+    margin-left: auto;
+    margin-top: -200px;
+}
+.box5{
+    background: gray;
+    margin: auto;
+} */
+
+/* ================================= */
+
+/* .box1,.box3,.box5{
+    width: 200px;
+    height: 200px;
+    background:red;
+}
+.box2,.box4,.box6{
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.box2{
+    margin-left: 200px;
+}
+.box3{
+    margin-left: 400px;
+    margin-top: -400px;
+}
+.box4{
+    margin-left: 600px;
+}
+.box5{
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.box6{
+    margin-left: 1000px;
+} */

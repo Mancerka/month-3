@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    height: 150px;
+    width: 99%;
+    background: green;
+    margin-top: 18px;
+    display: flex;
+}
+
+.head1{
+    margin: 25px;
+    background: red;
+    height: 90px;
+    width: 250px;
+}
+
+.head2{
+    margin-left: 1350px;
+    margin-top: 25px;
+    background: red;
+    height:100px;
+    width: 750px;
+}
+
+.content{
+    display: flex;
+    justify-content: left;
+}
+
+.sidebar{
+    height: 70vh;
+    width: 500px;
+    background: green;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.content2{
+    height: 70vh;
+    width: 1995px;
+    background: green;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.con-box1{
+    background: orange;
+    height: 370px;
+    width: 1800px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.con-box2{
+    background: orange;
+    height: 370px;
+    width: 1800px;
+    margin-left: 100px;
+} */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.sidebar-left{
+    background: red;
+    height: 75vh;
+    width: 400px;
+    Display:flex;
+    Flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1{
+    background: green;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+
+.sidebar-right{
+    background: red;
+    height: 75vh;
+    width: 400px;
+    Display:flex;
+    Flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+
+.box2{
+    background: green;
+    height: 150px;
+    width: 375px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.box3{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px;
+}
+
+.box4{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px;
+}
+
+.box5{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px;
+}
+
+.box6{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px;  
+}
+
+.box7{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px;  
+}
+
+.box8{
+    background: green;
+    height: 75px;
+    width: 50px;
+    margin: 10px; 
+}
