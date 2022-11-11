@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.block {
+    width: 400px;
+    height: 300px;
+    background: red;
+    animation-name: test;
+    animation-duration: 4s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+@keyframes test {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(20deg);
+    }
+    100% {
+        transform: rotateZ(-20deg);
+    }
+}

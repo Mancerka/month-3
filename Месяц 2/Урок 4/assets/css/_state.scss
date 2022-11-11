@@ -1,0 +1,20 @@
+$colorGreen: green;
+///// Построение шаблона для однотипных свойств различных блоков
+%flexBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin back($url, $size, $repeat, $position){
+    background: url($url);
+    background-size: $size;
+    background-repeat: $repeat;
+    background-position: $position;
+}
+
+@mixin flex( $flex, $justify, $wrap) {
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}

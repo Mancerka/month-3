@@ -1,0 +1,120 @@
+// header{
+//     background: red;
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+
+//     .menu{
+//         width: 400px;
+
+//         ul{
+//             list-style: none;
+//             display: flex;
+//             justify-content: space-around;
+//         }
+//         li{
+//             width: 100px;
+//         }
+//         a{
+//             font-family: serif;
+//             font-size: 14px;
+//             line-height: 23px;
+//         }
+//     }
+// }
+
+// .start{
+//     background: red;
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+
+//     &:hover{
+//         background: green;
+//     }
+
+//     > h1{
+//         color: black;
+
+//         &:hover{
+//             color: red;
+//         }
+//     }
+//     > h2{
+//         color: #fff;
+//     }
+// }
+// *{
+//     padding: 0; 
+//     margin: 0;
+// }
+// .start{
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+
+
+//     &-wrapper {
+//         max-width: 1000px;
+//         margin: auto;
+//         display: flex;
+//         justify-content: space-between;
+
+//         &__card{
+//             width: 300px;
+//             height: 200px;
+//             border-radius: 30px 10px;
+//             background: red;
+//             position: relative;
+//             box-shadow: 0px 0px 10px 0px black;
+
+//             &::after{
+//                 content: '';
+//                 width: 300px;
+//                 height: 200px;
+//                 border-radius: 30px 10px;
+//                 background: rgb(124, 26, 26);
+//                 position: absolute;
+//                 top: 20px;
+//                 left: 20px;
+//                 z-index: -1;
+//             }
+//         }
+//     }
+
+//     @media (max-width: 1000px) {
+//         padding-top: 50px;
+//         padding-bottom: 50px;
+
+//         &-wrapper{
+//             flex-wrap: wrap;
+//             gap: 50px;
+//             justify-content: space-around;
+//         }
+//     }
+// }
+////Импорт из другого файла
+@import 'state';
+
+// h1{
+//     color: $colorGreen;
+// }
+///// Шаблоны
+// .start-wrapper{
+//     @extend %flexBetween;
+// }
+
+////Работа с mixin'om
+
+
+
+
+.test{
+    @include flex(flex, space-around, nowrap)
+}
+
+.box{
+    @include flex(flex, center, wrap)
+}
+
+
+.promo{
+    @include back('https://ichef.bbci.co.uk/news/976/cpsprodpb/13729/production/_112375697_1331db7a-17c0-4401-8cac-6a2309ff49b6.jpg', cover, no-repeat, top cen)
+}

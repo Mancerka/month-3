@@ -1,0 +1,18 @@
+.test {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promo {
+  background: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/13729/production/_112375697_1331db7a-17c0-4401-8cac-6a2309ff49b6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top cen;
+}/*# sourceMappingURL=style.css.map */
